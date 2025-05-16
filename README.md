@@ -55,6 +55,11 @@ python easyshark.py
 - DNS analysis
 - Detailed port security information
 
+Build EXE file:
+```bash
+pyinstaller --onefile --noconsole --hidden-import "dns.resolver" --hidden-import "dn.reversename" --hidden-import "psutils" --hidden-import "cryptography" --hidden-import "scapy.layers.inet" --hidden-import "scapy.layers.dns" --hidden-import "scapy.layers.l2" --hidden-import "scapy.utils" --add-data "C:\Python312\Lib\site-packages\dns\*;dns" --icon=easyshark.ico .\easyshark.py
+```
+
 ---
 
 # EasyShark - Analyzátor síťového provozu
@@ -110,3 +115,8 @@ python easyshark.py
 - Monitorování SYN flood útoků
 - DNS analýza
 - Detailní informace o zabezpečení portů
+
+Build EXE souboru:
+```bash
+pyinstaller --onefile --noconsole --hidden-import "dns.resolver" --hidden-import "dn.reversename" --hidden-import "psutils" --hidden-import "cryptography" --hidden-import "scapy.layers.inet" --hidden-import "scapy.layers.dns" --hidden-import "scapy.layers.l2" --hidden-import "scapy.utils" --add-data "C:\Python312\Lib\site-packages\dns\*;dns" --icon=easyshark.ico .\easyshark.py
+```
