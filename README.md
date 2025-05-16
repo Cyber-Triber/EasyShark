@@ -1,5 +1,8 @@
 # EasyShark - Network Traffic Analyzer
 
+![wireshark 256x256](https://github.com/user-attachments/assets/9fb25903-7977-4ebb-afb4-4fdb57924fee)
+
+
 A lightweight network packet analyzer with a Qt-based GUI for easy network traffic monitoring and analysis.
 
 ## Features
