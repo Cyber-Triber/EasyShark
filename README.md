@@ -116,7 +116,7 @@ python easyshark.py
 - DNS analýza
 - Detailní informace o zabezpečení portů
 
-Build EXE souboru:
+Build [EXE](https://stefula.cz/apps/easyshark/easyshark_v004.exe) souboru:
 ```bash
 pyinstaller --onefile --noconsole --hidden-import "dns.resolver" --hidden-import "dn.reversename" --hidden-import "psutils" --hidden-import "cryptography" --hidden-import "scapy.layers.inet" --hidden-import "scapy.layers.dns" --hidden-import "scapy.layers.l2" --hidden-import "scapy.utils" --add-data "C:\Python312\Lib\site-packages\dns\*;dns" --icon=easyshark.ico .\easyshark.py
 ```
