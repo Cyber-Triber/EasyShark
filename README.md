@@ -60,6 +60,8 @@ Build EXE file:
 pyinstaller --onefile --noconsole --hidden-import "dns.resolver" --hidden-import "dn.reversename" --hidden-import "psutils" --hidden-import "cryptography" --hidden-import "scapy.layers.inet" --hidden-import "scapy.layers.dns" --hidden-import "scapy.layers.l2" --hidden-import "scapy.utils" --add-data "C:\Python312\Lib\site-packages\dns\*;dns" --icon=easyshark.ico .\easyshark.py
 ```
 
+In case of error 'Packet capture failed: Error opening adapter. The file name, directory name, or volume label is incorrect. (123)(123)', you need to install [npcap](https://npcap.com/dist/npcap-1.82.exe) in your system
+
 ---
 
 # EasyShark - Analyzátor síťového provozu
@@ -120,3 +122,5 @@ Build [EXE](https://stefula.cz/apps/easyshark/easyshark_v004.exe) souboru:
 ```bash
 pyinstaller --onefile --noconsole --hidden-import "dns.resolver" --hidden-import "dn.reversename" --hidden-import "psutils" --hidden-import "cryptography" --hidden-import "scapy.layers.inet" --hidden-import "scapy.layers.dns" --hidden-import "scapy.layers.l2" --hidden-import "scapy.utils" --add-data "C:\Python312\Lib\site-packages\dns\*;dns" --icon=easyshark.ico .\easyshark.py
 ```
+
+V případě chyby "Zachytávání paketů selhalo: Error opening adapter. Název souboru či adresáře nebo jmenovka svazku je nesprávná. (123)(123)" je potřeba doinstalovat do systému [npcap](https://npcap.com/dist/npcap-1.82.exe)
