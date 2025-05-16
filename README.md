@@ -36,6 +36,7 @@ pip install PyQt5 scapy psutil dnspython
 
 Run the script with administrative privileges:
 
+
 ```bash
 python easyshark.py
 ```
@@ -43,17 +44,18 @@ python easyshark.py
 1. Select a network interface from the list
 2. Choose capture duration
 3. View and analyze captured packets
-4. Use highlighting for specific IPs or ports
-5. Toggle between dark/light themes
-6. Save captures to PCAP files
 
-## Security Features
+## Additional Features
 
-- TCP/UDP suspicious port detection
-- ARP spoofing detection
-- SYN flood monitoring
-- DNS analysis
-- Detailed port security information
+* Highlighting for selected IP addresses or ports
+* Dark/Light mode
+* Save/Load captured packets to/from a PCAP file
+* Detection of suspicious TCP/UDP ports
+* ARP spoofing detection
+* SYN flood attack monitoring
+* DNS analysis
+* Detailed port security information
+
 
 Build EXE file:
 ```bash
@@ -106,12 +108,11 @@ python easyshark.py
 1. Vyberte síťové rozhraní ze seznamu
 2. Zvolte délku zachytávání
 3. Prohlížejte a analyzujte zachycené pakety
-4. Používejte zvýrazňování pro konkrétní IP adresy nebo porty
-5. Přepínejte mezi tmavým/světlým režimem
-6. Ukládejte zachycené pakety do PCAP souborů
 
-## Bezpečnostní funkce
-
+## Další funkce
+- Zvýrazňování pro vybrané IP adresy nebo porty
+- Tmavý/světlý režim
+- Ukládání / načítání zachycených paketů do / z PCAP souboru
 - Detekce podezřelých TCP/UDP portů
 - Detekce ARP spoofingu
 - Monitorování SYN flood útoků
