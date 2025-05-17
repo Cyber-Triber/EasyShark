@@ -1,4 +1,4 @@
-# EasyShark - Network Traffic Analyzer
+# EasyShark - Network Traffic Analyzer (for non IT guys)
 
 ![wireshark 256x256](https://github.com/user-attachments/assets/9fb25903-7977-4ebb-afb4-4fdb57924fee)
 
